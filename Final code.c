@@ -169,7 +169,7 @@ void hidePassword(char *password) {
 
 void login() {
     char username[50], password[50];
-
+    clearScreen();
     printf("\nEnter username: ");
     scanf("%s", username);
     printf("Enter password: ");
@@ -204,7 +204,7 @@ void login() {
 // Function to register a new user
 void registerUser() {
     char username[50], password[50], role[20];
-
+    clearScreen();
     printf("\nEnter username: ");
     scanf("%s", username);
     printf("Enter password: ");
