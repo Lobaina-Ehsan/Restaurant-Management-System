@@ -117,6 +117,7 @@ void displayMainMenu() {
     int choice;
 
     do {
+        clearScreen();
         printf("\n");
         printBordered("Welcome to Restaurant Management System", COLOR_GREEN, 80);
         printf("\n");
@@ -142,6 +143,12 @@ void displayMainMenu() {
                 break;
         }
     } while (1);
+}
+
+void clearScreen()
+{
+
+    system("cls");
 }
 
 void hidePassword(char *password) {
