@@ -1,6 +1,4 @@
 # Restaurant-Management-System
-It is a basic system to manage a simple restaurant.
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
